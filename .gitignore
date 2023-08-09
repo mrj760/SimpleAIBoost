@@ -1,0 +1,4 @@
+bin/**
+dev/aiboost/.vs/**
+dev/aiboost/obj/**
+dev/aiboost/packages/**

@@ -1,0 +1,23 @@
+<Module>
+    <Name value="Simple AI Boost" />
+    <Id value="SimpleAIBoost" />
+    <Version value="v1.0.0" />
+    <SingleplayerModule value="true" />
+    <MultiplayerModule value="false" />
+    <DependedModules>
+        <DependedModule Id="Bannerlord.Harmony" Optional="false"/>
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="aiboost"/>
+            <DLLName value="aiboost.dll"/>
+            <SubModuleClassType value="aiboost.Fix"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+    </Xmls>
+</Module>
